@@ -4,7 +4,7 @@ class Solution {
     // Function to return length of longest subsequence of consecutive integers.
     int longestConsecutive(vector<int>& arr) {
         // Your code here
-        unordered_set<int> elements(arr.begin(), arr.end());
+    unordered_set<int> elements(arr.begin(), arr.end());
     int longestStreak = 0;
 
     for (int num : arr) {
