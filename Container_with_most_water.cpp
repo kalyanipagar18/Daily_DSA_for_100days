@@ -18,6 +18,7 @@ class Solution {
             left++;
         } else {
             right--;
+          
         }
     }
     return maxArea;
