@@ -15,7 +15,6 @@ class Solution {
             stk.push(c); 
         }
     }
-
     return stk.empty();
     }
 };
